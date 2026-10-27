@@ -16,8 +16,11 @@ body {
 
   background:
     radial-gradient(circle at top,
-      #2b2657,
-      #0f1020);
+      #2a2458,
+      #111222 55%,
+      #090a13);
+
+  color: white;
 
   font-family: "Poppins", sans-serif;
 }

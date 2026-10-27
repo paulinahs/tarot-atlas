@@ -155,3 +155,26 @@
 
     margin-top: 2rem;
 }
+
+.hero {
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    background: rgba(109, 94, 252, 0.15);
+
+    filter: blur(120px);
+
+    top: -150px;
+
+    z-index: -1;
+}
