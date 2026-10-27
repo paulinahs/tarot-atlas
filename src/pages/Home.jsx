@@ -7,7 +7,7 @@ function Home() {
 
         <h1>Discover Your Inner Compass</h1>
 
-<p>
+  <p>
   Tarot Atlas combines timeless symbolism with modern tools
   for reflection, journaling and personal guidance.
 </p>
@@ -57,17 +57,17 @@ function Home() {
 </section>
 
 <section className="how-it-works">
-  <div>
+  <div className="step-card">
     <h3>Draw</h3>
     <p>Select a spread or receive a daily card.</p>
   </div>
 
-  <div>
+  <div className="step-card">
     <h3>Reflect</h3>
     <p>Explore symbols and interpretations.</p>
   </div>
 
-  <div>
+  <div className="step-card">
     <h3>Grow</h3>
     <p>Track insights through journaling.</p>
   </div>
