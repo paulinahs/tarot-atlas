@@ -10,7 +10,7 @@ Tarot Atlas is a collaborative project focused on creating an accessible and vis
 
 The project combines:
 
-- Cards provided by GitHub repo
+- Cards provided by GitHub repo: https://github.com/mixvlad/TarotCards
 - Interactive tarot spreads
 - Card encyclopedia
 - Responsive design
