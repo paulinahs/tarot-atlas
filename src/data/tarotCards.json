@@ -2,8 +2,13 @@
   {
     "id": 1,
     "name": "The Fool",
-    "arcana": "Major",
     "upright": "New beginnings",
     "reversed": "Recklessness"
+  },
+  {
+    "id": 2,
+    "name": "The Magician",
+    "upright": "Manifestation",
+    "reversed": "Manipulation"
   }
 ]

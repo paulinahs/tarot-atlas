@@ -1,9 +1,21 @@
+import Navbar from "../components/layout/Navbar";
+
 function Home() {
   return (
-    <main>
-      <h1>Tarot Atlas</h1>
-      <p>Your digital tarot companion.</p>
-    </main>
+    <>
+      <Navbar />
+
+      <main className="hero">
+        <h1>Tarot Atlas</h1>
+
+        <p>
+          Discover guidance through custom tarot readings and
+          explore the meanings behind every card.
+        </p>
+
+        <button>Begin Reading</button>
+      </main>
+    </>
   );
 }
 
