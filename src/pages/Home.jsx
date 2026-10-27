@@ -5,11 +5,12 @@ function Home() {
     <>
       <section className="hero">
 
-        <h1>Discover Your Inner Compass</h1>
+        <h1>The Cards reveal</h1>
+        <h2>You decide the path...</h2>
 
   <p>
-  Tarot Atlas combines timeless symbolism with modern tools
-  for reflection, journaling and personal guidance.
+  A modern tarot experience combining reflection,
+journaling and intuitive exploration.
 </p>
 
 <button>Begin Your Journey</button>
