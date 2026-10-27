@@ -12,7 +12,14 @@
 }
 
 body {
-  min-height: 100vh;
+  margin: 0;
+
+  background:
+    radial-gradient(circle at top,
+      #2b2657,
+      #0f1020);
+
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
