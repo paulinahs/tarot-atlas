@@ -5,7 +5,7 @@ import Navbar from "../components/layout/Navbar";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Journal from "../pages/Journal";
-import Readings from "../pages/Readings";
+import Readings from "../pages/Reading";
 
 function AppRouter() {
   return (
