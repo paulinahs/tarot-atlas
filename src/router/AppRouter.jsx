@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Navbar from "../components/Navbar";
 
@@ -9,18 +9,14 @@ import Readings from "../pages/Reading";
 
 function AppRouter() {
   return (
-    <BrowserRouter>
-
-      <Navbar />
-
+    <>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/journal" element={<Journal />} />
         <Route path="/readings" element={<Readings />} />
       </Routes>
-
-    </BrowserRouter>
+    </>
   );
 }
 

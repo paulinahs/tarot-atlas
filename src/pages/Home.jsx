@@ -1,5 +1,5 @@
 import "../styles/pages/Home.css";
-import Footer from "../components/layout/Footer";
+
 
 import {
   Sparkles,
@@ -85,7 +85,7 @@ journaling and intuitive exploration.
 <p>Track insights through journaling.</p>
   </div>
 </section>
-      <Footer />
+
     </>
 
   );
