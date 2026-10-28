@@ -1,4 +1,6 @@
+import { Link } from "react-router-dom";
 import "../../styles/layout/Footer.css";
+
 
 
 function Footer() {
@@ -13,11 +15,11 @@ function Footer() {
     </p>
 
     <div className="footer-links">
-      <a href="#">Discover</a>
-      <a href="#">Readings</a>
-      <a href="#">Journal</a>
-      <a href="#">About</a>
-    </div>
+  <Link to="/readings">Readings</Link>
+  <Link to="/journal">Journal</Link>
+  <Link to="/about">About</Link>
+</div>
+    
 
     <div className="footer-bottom">
       <p>© 2026 Tarot Atlas. All rights reserved.</p>

@@ -5,15 +5,11 @@ import "../styles/layout/Navbar.css";
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        ✨ Tarot Atlas
-      </div>
+      <Link to="/" className="navbar-logo">
+  ✨ Tarot Atlas
+</Link>
 
       <ul className="navbar-links">
-        <li>
-          <Link to="/">Discover</Link>
-        </li>
-
         <li>
           <Link to="/readings">Readings</Link>
         </li>
