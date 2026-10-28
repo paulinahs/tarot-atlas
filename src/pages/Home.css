@@ -38,6 +38,13 @@
     cursor: pointer;
 }
 
+.hero-button:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 0 20px rgba(111, 76, 255, 0.5);
+}
+
 .features {
     display: grid;
 
@@ -55,7 +62,13 @@
     padding: 2rem;
 
     border-radius: 16px;
+
+    transition: all 0.3s ease;
 }
+
+
+    
+
 
 .featured-reading {
     text-align: center;
