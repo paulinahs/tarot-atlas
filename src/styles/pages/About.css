@@ -1,0 +1,65 @@
+.about {
+    min-height: calc(100vh - 80px);
+    background: #05051a;
+    color: white;
+    padding: 6rem 2rem;
+}
+
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-badge {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(126, 87, 194, 0.15);
+    color: #c9a7ff;
+    border-radius: 999px;
+    margin-bottom: 1.5rem;
+}
+
+.about h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    max-width: 700px;
+    margin-bottom: 2rem;
+}
+
+.about-lead {
+    max-width: 750px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #c7c7d1;
+    margin-bottom: 4rem;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.about-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    padding: 2rem;
+    transition: 0.3s ease;
+}
+
+.about-card:hover {
+    transform: translateY(-8px);
+    border-color: #8e6cf5;
+    box-shadow: 0 10px 30px rgba(142, 108, 245, 0.2);
+}
+
+.about-card h2 {
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.about-card p {
+    color: #d1d1db;
+    line-height: 1.7;
+}
