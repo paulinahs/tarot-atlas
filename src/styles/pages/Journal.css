@@ -1,0 +1,196 @@
+/* PAGE */
+
+.journal-page {
+    color: white;
+}
+
+/* HERO */
+
+.journal-hero {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 6rem 2rem;
+}
+
+.journal-hero h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.journal-hero p {
+    max-width: 700px;
+    margin: 0 auto 2rem;
+    color: #cfcfcf;
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+
+.journal-hero button {
+    background: linear-gradient(135deg,
+            #7159ff,
+            #9a79ff);
+
+    color: white;
+    border: none;
+    border-radius: 999px;
+
+    padding: 1rem 2rem;
+
+    font-size: 1rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.journal-hero button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0 20px rgba(123, 104, 255, 0.4);
+}
+
+/* SECTION */
+
+.journal-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+.journal-section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* ENTRY CARDS */
+
+.journal-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.journal-card {
+    background: rgba(255, 255, 255, 0.05);
+
+    border: 1px solid rgba(123,
+            104,
+            255,
+            0.25);
+
+    border-radius: 20px;
+
+    padding: 2rem;
+
+    transition: 0.3s ease;
+}
+
+.journal-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #7b68ff;
+}
+
+.journal-card h3 {
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+.journal-card p {
+    color: #cfcfcf;
+    line-height: 1.6;
+}
+
+/* PROMPTS */
+
+.prompt-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,
+            minmax(250px, 1fr));
+
+    gap: 2rem;
+}
+
+.prompt-card {
+    background: rgba(255, 255, 255, 0.05);
+
+    border: 1px solid rgba(123,
+            104,
+            255,
+            0.2);
+
+    border-radius: 18px;
+
+    padding: 2rem;
+
+    text-align: center;
+
+    font-size: 1.05rem;
+    line-height: 1.7;
+
+    transition: 0.3s;
+}
+
+.prompt-card:hover {
+    border-color: #7b68ff;
+    transform: translateY(-4px);
+}
+
+/* STATS */
+
+.stats-grid {
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit,
+            minmax(180px, 1fr));
+
+    gap: 2rem;
+}
+
+.stat-card {
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.05);
+
+    border-radius: 20px;
+
+    padding: 2rem;
+
+    border: 1px solid rgba(123,
+            104,
+            255,
+            0.2);
+}
+
+.stat-card h3 {
+    font-size: 3rem;
+    color: #9a79ff;
+
+    margin-bottom: 0.5rem;
+}
+
+.stat-card p {
+    color: #cfcfcf;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+    .journal-hero {
+        padding: 4rem 1.5rem;
+    }
+
+    .journal-hero h1 {
+        font-size: 2.8rem;
+    }
+
+    .journal-section {
+        padding: 3rem 1.5rem;
+    }
+
+    .journal-section h2 {
+        font-size: 1.8rem;
+    }
+}

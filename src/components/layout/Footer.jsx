@@ -14,13 +14,6 @@ function Footer() {
       and mindful journaling.
     </p>
 
-    <div className="footer-links">
-  <Link to="/readings">Readings</Link>
-  <Link to="/journal">Journal</Link>
-  <Link to="/about">About</Link>
-</div>
-    
-
     <div className="footer-bottom">
       <p>© 2026 Tarot Atlas. All rights reserved.</p>
     </div>
