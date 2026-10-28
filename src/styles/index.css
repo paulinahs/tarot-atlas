@@ -1,0 +1,57 @@
+@import "./variables.css";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: Inter, sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background:
+    radial-gradient(circle at top,
+      rgba(111, 76, 255, 0.25),
+      transparent 60%),
+    #05051e;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+
+  background: rgba(111, 76, 255, 0.15);
+
+  border-radius: 50%;
+  filter: blur(120px);
+
+  top: -150px;
+  right: -150px;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
