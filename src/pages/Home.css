@@ -15,6 +15,29 @@
     padding: 2rem;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    border-radius: 50%;
+
+    background: rgba(109, 94, 252, 0.15);
+
+    filter: blur(120px);
+
+    top: -150px;
+
+    z-index: -1;
+}
+
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 1rem;
@@ -176,25 +199,9 @@
     margin-top: 2rem;
 }
 
-.hero {
-    position: relative;
-}
 
-.hero::before {
-    content: "";
 
-    position: absolute;
-
-    width: 500px;
-    height: 500px;
-
-    border-radius: 50%;
-
-    background: rgba(109, 94, 252, 0.15);
-
-    filter: blur(120px);
-
-    top: -150px;
-
-    z-index: -1;
+.feature-card svg {
+    color: #8b7bff;
+    margin-bottom: 1rem;
 }

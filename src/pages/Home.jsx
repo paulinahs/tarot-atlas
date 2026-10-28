@@ -1,4 +1,9 @@
 import "./Home.css";
+import {
+  Sparkles,
+  BookOpen,
+  Sprout,
+} from "lucide-react";
 
 function Home() {
   return (
@@ -59,18 +64,23 @@ journaling and intuitive exploration.
 
 <section className="how-it-works">
   <div className="step-card">
-    <h3>Draw</h3>
-    <p>Select a spread or receive a daily card.</p>
+      <Sparkles size={40} />
+<h3>Draw</h3>
+<p>Select a spread or receive a daily card.</p>
+  </div>
+
+
+
+  <div className="step-card">
+    <BookOpen size={40} />
+<h3>Reflect</h3>
+<p>Explore symbols and interpretations.</p>
   </div>
 
   <div className="step-card">
-    <h3>Reflect</h3>
-    <p>Explore symbols and interpretations.</p>
-  </div>
-
-  <div className="step-card">
-    <h3>Grow</h3>
-    <p>Track insights through journaling.</p>
+    <Sprout size={40} />
+<h3>Grow</h3>
+<p>Track insights through journaling.</p>
   </div>
 </section>
     </>
